@@ -1,3 +1,4 @@
+<!-- Home page of website -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
