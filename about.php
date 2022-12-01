@@ -1,3 +1,4 @@
+<!-- "About us" page representative of a tour website -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
