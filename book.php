@@ -85,6 +85,7 @@
          <div class="dropdown">
             <label for="package">Choose a package:</label>
             <select id="package" name="location" required="required">
+               <!-- Display drop down menu by reading names of all packages available in database -->
                <?php 
                while($row = mysqli_fetch_row($result)){
                echo "<option value='{$row[0]}'>{$row[0]}</option>";
@@ -104,7 +105,7 @@
             <span>leaving :</span>
             <input type="date" name="leaving" required="required"">
          </div>
-         <!-- -->
+         <!-- Disables all dates shown in calendar which are prior to today's date -->
          <script>
             window.onload=function(){//from ww  w . j  a  va2s. c  o  m
             var today = new Date().toISOString().split('T')[0];
