@@ -1,4 +1,6 @@
 <?php
+// Package images are uploaded into MySQL database table ('packages_db/images') using this form
+// Source: https://www.codexworld.com/store-retrieve-image-from-database-mysql-php/
 $db = mysqli_connect('localhost','root','','packages_db');
 $status = $statusMsg = ''; 
 if(isset($_POST["submit"])){ 
