@@ -40,7 +40,7 @@ var swiper = new Swiper(".reviews-slider", {
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
 let currentItem = 3;
-
+// Displays further packages
 loadMoreBtn.onclick = () =>{
    let boxes = [...document.querySelectorAll('.packages .box-container .box')];
    for (var i = currentItem; i < currentItem + 3; i++){
