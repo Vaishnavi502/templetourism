@@ -1,4 +1,5 @@
 <?php
+# Read package details from MySQL database 'packages_db/packages' and 'packages_db/images', display packages
    $connection = mysqli_connect('localhost','root','','packages_db');
    if(!$connection){
       die("Connection failed: ".mysqli_connect_error());
