@@ -1,3 +1,7 @@
+<!-- Booking form page with fields to enter details of customized packages -->
+<!-- This form calls book_form.php on successful submission -->
+
+<!-- Connect to database via php and display drop down list of packages -->
 <?php
    $connection = mysqli_connect('localhost','root','','packages_db');
    if(!$connection){
@@ -59,8 +63,9 @@
    <h1 class="heading-title">book your trip!</h1>
 
    <form action="book_form.php" method="post" class="book-form" onsubmit="return myFunction();">
-
-      <div class="flex">
+      <!-- Store details in database and display confirmation window on successful booking -->
+      <!-- All fields are required. Also shows customized error message when phone number length is not 10 digits -->      
+     <div class="flex">
          <div class="inputBox">
             <span>name :</span>
             <input type="text" placeholder="enter your name" name="name" required="required">
@@ -99,6 +104,7 @@
             <span>leaving :</span>
             <input type="date" name="leaving" required="required"">
          </div>
+         <!-- -->
          <script>
             window.onload=function(){//from ww  w . j  a  va2s. c  o  m
             var today = new Date().toISOString().split('T')[0];
