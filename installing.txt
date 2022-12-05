@@ -1,0 +1,2 @@
+Installing xampp in windows:
+https://www.geeksforgeeks.org/how-to-install-xampp-on-windows/
