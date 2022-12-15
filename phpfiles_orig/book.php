@@ -1,5 +1,5 @@
 <!-- Booking form page with fields to enter details of customized packages -->
-<!-- This form calls book_form.php on successful submission -->
+<!-- This form calls book_form.php on successful submission --> 
 
 <!-- Connect to database via php and display drop down list of packages -->
 <?php
