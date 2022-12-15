@@ -16,6 +16,7 @@ Required: XAMPP (for Windows)
 ![pkg2 jpg](https://user-images.githubusercontent.com/68768878/205826987-a432d2e4-e1e1-4201-b6d1-b19c26131346.png)
 ![book1 jpg](https://user-images.githubusercontent.com/68768878/205827007-da9c197d-aa79-4589-a403-3bdbfad71d1b.png)
 ![book2 jpg](https://user-images.githubusercontent.com/68768878/205827015-afde2692-232b-4892-80d1-51277adc4de7.png)
-![book3 jpg](https://user-images.githubusercontent.com/68768878/205827042-c7d5e643-2363-4f92-abb4-4ca3c2179252.png)
+![image](https://user-images.githubusercontent.com/68768878/207863002-678ed295-22c9-46ea-a1b4-5e7352fc5b85.png)
+
 
 ###### Check out more at https://github.com/Vaishnavi502/templetourism/blob/main/Tamilnadu%20Temple%20Tourism%20-%20A%20look%20at%20the%20website.pdf
